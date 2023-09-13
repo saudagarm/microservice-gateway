@@ -1,0 +1,61 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "baseName": "gateway",
+    "blueprints": [],
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "angularX",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1694159750521,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "devServerPort": 4200,
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": true,
+    "enableTranslation": false,
+    "entitySuffix": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.9.4",
+    "jwtSecretKey": "Y2M2MGMzZTNhMzUzMzExOWY0M2I4YmY0YWFhYmU3NzI0YTFmMGYxNmU1ODg4MTIzOThmMWY4Y2NiMDQxOTFlMWY4YWM5NjgxYmVlNjJiZWIyY2FiMDQzOGNhMGI3MDRlNDk2ZDAxZGQ5ZmEyZDQyMmY3MTBlZmQyMDE0ODA3Yzc=",
+    "languages": ["en", "fr"],
+    "messageBroker": false,
+    "microfrontend": true,
+    "microfrontends": [
+      {
+        "baseName": "payment"
+      },
+      {
+        "baseName": "collection"
+      },
+      {
+        "baseName": "master"
+      },
+      {
+        "baseName": "cards"
+      }
+    ],
+    "nativeLanguage": "en",
+    "otherModules": [],
+    "packageName": "com.mycompany.myapp",
+    "pages": [],
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "searchEngine": false,
+    "serverPort": "8080",
+    "serverSideOptions": ["enableSwaggerCodegen:true"],
+    "serviceDiscoveryType": "eureka",
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": false,
+    "skipFakeData": false,
+    "skipUserManagement": false,
+    "testFrameworks": [],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}
